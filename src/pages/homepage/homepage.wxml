@@ -1,0 +1,8 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="say-hello userinfo-nickname">Hello, {{userInfo.nickName}} !</text>
+  </view>
+  <text class="say-hello">Welcome to use wxSeed.</text>
+</view>

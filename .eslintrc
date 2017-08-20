@@ -1,0 +1,15 @@
+{
+    "extends": "airbnb-base",
+    "globals": {
+        "App": true,
+        "wx": true,
+        "getApp": true,
+        "getCurrentPages": true,
+        "Page": true
+    },
+    "rules": {
+        "indent": ["error", 4],
+        "func-names": ["error", "as-needed"],
+        "no-param-reassign": ["error", { "props": false }]
+    }
+}
